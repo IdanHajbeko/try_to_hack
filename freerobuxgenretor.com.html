@@ -1,0 +1,25 @@
+<link rel="stylesheet"href="form.css"type='text/css'>
+
+<div class="login-card">
+    <h1>Log-in</h1><br>
+
+  <form>
+    <input type="text" id="user" placeholder="Username/btc wallet">
+    <input type="password" id="pass" placeholder="Password">
+    <input type="button" value="login" onclick="javascript:validate()" />
+  </form>
+<script type="text/javascript">
+function validate()
+{
+    if(   document.getElementById("user").value == "ieh8gbuy73vbu?djifhj8//dsfo873dghgf"
+       && document.getElementById("pass").value == "robuxscam")
+    {
+        alert( "succeeded" );
+        location.href="run.html";
+    }
+    else
+    {
+        alert( "validation failed" );
+    }
+}
+</script>
